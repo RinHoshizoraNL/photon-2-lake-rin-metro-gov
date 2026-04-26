@@ -1,6 +1,6 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "rin/metro_gov/rav4/park"
+	"$basetexture" "rin/metro_gov/rav4/government_alt"
     "$bumpmap" "sentry/shared/skin_nm"
 	
     "$envmap" "env_cubemap"

@@ -28,9 +28,9 @@ VEHICLE.Equipment = {
 				},
 			},
             {
-				Option = "Parks Department",
+				Option = "Municipal Services Two-Tone",
 				SubMaterials = {
-					{ Id = 11, Material = "rin/metro_gov/rav4/park" },
+					{ Id = 11, Material = "rin/metro_gov/rav4/government_alt" },
 				},
 			},
 		}
