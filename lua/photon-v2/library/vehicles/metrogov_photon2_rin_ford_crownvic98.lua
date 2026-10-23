@@ -20,8 +20,27 @@ VEHICLE.Equipment = {
 			},
 		}
 	},
-    {
+	{
 		Category = "Lighting",
+		Options = {
+			{
+				Option = "Default",
+				Components = {
+					{
+						Name = "@standard",
+						Component = "photon_standard_cvpi10",
+						Inputs = {
+							["Emergency.Warning"] = {
+								["MODE3"] = {},
+							}
+						}
+					},
+				}
+			}
+		}
+	},
+    {
+		Category = "Beacon",
 		Options = {
             {
 				Option = "Beacon Dash",
@@ -43,6 +62,12 @@ VEHICLE.Equipment = {
 						SubMaterials = {
 							[5] = "sentry/props/koitoflasher/glass_amber",
 							[6] = "sentry/props/koitoflasher/glass_amber"
+						},
+						Inputs = {
+							["Emergency.Warning"] = {
+								["MODE1"] = {},
+								["MODE2"] = {},
+							}
 						},
 						RenderGroup = RENDERGROUP_OPAQUE,
 					},
@@ -69,6 +94,12 @@ VEHICLE.Equipment = {
 							[5] = "sentry/props/koitoflasher/glass_amber",
 							[6] = "sentry/props/koitoflasher/glass_amber"
 						},
+						Inputs = {
+							["Emergency.Warning"] = {
+								["MODE1"] = {},
+								["MODE2"] = {},
+							}
+						},
 					},
 				}
 			},
@@ -92,6 +123,12 @@ VEHICLE.Equipment = {
 						SubMaterials = {
 							[5] = "sentry/props/koitoflasher/glass_amber",
 							[6] = "sentry/props/koitoflasher/glass_amber"
+						},
+						Inputs = {
+							["Emergency.Warning"] = {
+								["MODE1"] = {},
+								["MODE2"] = {},
+							}
 						},
 					},
 				}
@@ -117,31 +154,13 @@ VEHICLE.Equipment = {
 							[5] = "sentry/props/koitoflasher/glass_amber",
 							[6] = "sentry/props/koitoflasher/glass_amber"
 						},
+						Inputs = {
+							["Emergency.Warning"] = {
+								["MODE1"] = {},
+								["MODE2"] = {},
+							}
+						},
 					},
-				}
-			},
-			{
-				Option = "Lightbar",
-				Components = {
-					{
-                        Component = "patlite_axs12",
-                        Position = Vector( 0, -17, 69.5 ),
-                        Angles = Angle( -1, -90, 0 ),
-                        Scale = 1.1,
-						States = {
-							[1] = "A",
-							[2] = "A",
-							[3] = "A",
-							[4] = "A",
-						},
-                        Options = {
-                            FeetWidthOffset = 1,
-                            FeetTilt = -4,
-                        },
-						SubMaterials = {
-							[12] = "sentry/props/koitoflasher/glass_amber"
-						},
-                    },
 				}
 			},
 		}
