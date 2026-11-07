@@ -28,7 +28,7 @@ VEHICLE.Equipment = {
 				Components = {
 					{
 						Name = "@standard",
-						Component = "photon_standard_cvpi10",
+						Component = "photon_standard_cvpi98_4bulb",
 						Inputs = {
 							["Emergency.Warning"] = {
 								["MODE3"] = {},
